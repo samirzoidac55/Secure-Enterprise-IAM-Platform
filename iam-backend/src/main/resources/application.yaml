@@ -20,3 +20,6 @@ spring:
           jwk-set-uri: ${spring.security.oauth2.resourceserver.jwt.issuer-uri}/protocol/openid-connect/certs
 server:
   port: 8081
+logging:
+  level:
+    org.springframework.security: DEBUG
